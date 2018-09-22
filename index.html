@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <meta name="description" content="Simon Lelorrain's Portal" />
+        <meta name="keywords" content="Simon Lelorrain, Lelorrain Simon, Blog, GitHub, Twitter, Facebook, LinkedIn, SensCritique, CV, Curriculum Vitae, Steam, Email" />
+        <title>Simon Lelorrain's Portal</title>
+        <link type="image/png" rel="shortcut icon" href="./favicon.png" />
+        <link type="text/css" rel="stylesheet" media="screen, projection" href="./style.css?1537616262" />
+    </head>
+    <body>
+
+        <header>
+            <h1>Simon Lelorrain</h1>
+        </header>
+
+        <section id="main">
+            <ul class="grid">
+                <li>
+                    <a href="./cv">
+                        <h3>CV</h3>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://www.github.com/slelorrain">
+                        <h3>GitHub</h3>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://www.linkedin.com/in/slelorrain">
+                        <h3>LinkedIn</h3>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://twitter.com/D3C4P5">
+                        <h3>Twitter</h3>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://www.senscritique.com/decaps">
+                        <h3>SensCritique</h3>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://www.facebook.com/slelorrain">
+                        <h3>Facebook</h3>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://www.decaps.fr">
+                        <h3>Blog</h3>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://steamcommunity.com/id/decaps">
+                        <h3>Steam</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:slelorrain|gmail.com" id="email">
+                        <h3>Email</h3>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <script type="text/javascript">
+        window.onload = function (){
+            var email = document.getElementById("email"); var href = email.getAttribute("href");
+            if( href.indexOf("mailto:")!=-1 ){ href=href.replace("|","@"); email.setAttribute("href",href); };
+        }
+        </script>
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4046476-10']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        </script>
+
+    </body>
+</html>
